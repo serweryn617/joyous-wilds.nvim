@@ -17,7 +17,7 @@ local palette = {
   ecru = "#d5cc7b",
   mustard = "#ffe600",
   pink = "#bd83c3",
-  ochre = "#9b8c03",
+  ochre = "#653b20",
 
   white = "#ffffff",
   gray_1 = "#c8c8c8",
@@ -40,6 +40,18 @@ local palette = {
   jw_pink_4 = "#9628b4",
   jw_pink_5 = "#801d9b",
   jw_pink_6 = "#6a1282",
+
+  git_red_dark = "#9a323c",
+  git_red = "#c85661",
+  git_green_dark = "#5b9a74",
+  git_green = "#70c793",
+  git_coral_dark = "#af9670",
+  git_coral = "#e2c08d",
+  git_blue_dark = "#008ae6",
+  git_blue = "#3db1ff",
+
+  folder = "#c29755",
+  folder_open = "#ceab75",
 }
 
 return palette

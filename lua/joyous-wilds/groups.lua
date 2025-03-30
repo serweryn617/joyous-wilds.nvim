@@ -13,7 +13,7 @@ local groups = {
   CursorIM = {fg = palette.bg, bg = palette.fg},
   CursorColumn = {fg = nil, bg = palette.bg},
   CursorLine = {fg = nil, bg = palette.bg},
-  Directory = {fg = palette.gray_1, bg = nil},
+  Directory = {fg = palette.fg, bg = nil},
   DiffAdd = {fg = nil, bg = palette.info_bg},
   DiffChange = {fg = nil, bg = palette.info_bg},
   DiffDelete = {fg = nil, bg = palette.error_bg},
@@ -66,7 +66,7 @@ local groups = {
   TabLine = {fg = palette.gray_3, bg = palette.bg},
   TabLineFill = {fg = palette.fg, bg = palette.bg},
   TabLineSel = {fg = palette.fg, bg = palette.bg},
-  Title = {fg = palette.blue_3, bg = nil, bold = true},
+  Title = {fg = palette.fg, bg = nil, bold = true},
   Visual = {fg = nil, bg = palette.blue_4},
   VisualNOS = {fg = nil, bg = palette.bg},
   WarningMsg = {fg = palette.coral, bg = palette.bg},
@@ -241,6 +241,33 @@ local groups = {
   WhichKeySeparator = {fg = palette.white},
   -- WhichKeyTitle = {fg = nil},
   -- WhichKeyValue = {fg = nil},
+
+  -- NvimTree
+  NvimTreeRootFolder = {fg = palette.fg},
+  NvimTreeSpecialFile = {fg = palette.blue_1},
+  NvimTreeFolderIcon = {fg = palette.folder},
+  NvimTreeOpenedFolderIcon = {fg = palette.folder_open},
+  NvimTreeFolderArrowClosed = {fg = palette.white},
+  NvimTreeFolderArrowOpen = {fg = palette.white},
+
+  -- NvimTree GIT icon highlights
+  NvimTreeGitDeletedIcon = {fg = palette.git_red_dark},
+  NvimTreeGitDirtyIcon = {fg = palette.git_coral_dark},
+  NvimTreeGitIgnoredIcon = {fg = palette.gray_3},
+  NvimTreeGitMergeIcon = {fg = palette.git_red_dark},
+  NvimTreeGitNewIcon = {fg = palette.git_green_dark},
+  NvimTreeGitRenamedIcon = {fg = palette.git_green_dark},
+  NvimTreeGitStagedIcon = {fg = palette.git_blue_dark},
+
+  -- NvimTree GIT file highlights
+  NvimTreeGitFileDeletedHL = {fg = palette.git_red},
+  NvimTreeGitFileDirtyHL = {fg = palette.git_coral},
+  NvimTreeGitFileIgnoredHL = {fg = palette.gray_3},
+  NvimTreeGitFileMergeHL = {fg = palette.git_red},
+  NvimTreeGitFileNewHL = {fg = palette.git_green},
+  NvimTreeGitFileRenamedHL = {fg = palette.git_green},
+  NvimTreeGitFileStagedHL = {fg = palette.git_blue},
+
 }
 
 return groups
