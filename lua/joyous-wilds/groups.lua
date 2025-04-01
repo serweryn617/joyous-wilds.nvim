@@ -270,6 +270,77 @@ local groups = {
   NvimTreeGitFileRenamedHL = {fg = palette.git_green},
   NvimTreeGitFileStagedHL = {fg = palette.git_blue},
 
+  -- Bufferline
+  BufferLineFill = {fg = nil, bg = palette.jw_green_4},  -- right side fill, after butters, no fg
+  BufferLineBackground = {fg = palette.gray_1, bg = palette.jw_green_6},  -- inactive buffer text
+
+  -- BufferLineTab = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineTabSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineTabSeparator = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineTabSeparatorSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineTabClose = {fg = palette.mustard, bg = palette.gray_4},
+
+  BufferLineCloseButton = {fg = palette.gray_1, bg = palette.jw_green_6},
+  BufferLineCloseButtonSelected = {fg = palette.jw_pink_1, bg = palette.bg},
+  BufferLineCloseButtonVisible = {fg = palette.jw_pink_1, bg = palette.bg},
+
+  BufferLineBufferSelected = {fg = palette.white, bg = palette.bg, bold = true},
+  BufferLineBufferVisible = {fg = palette.white, bg = palette.bg},
+
+  -- BufferLineNumbers = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineNumbersSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineNumbersVisible = {fg = palette.mustard, bg = palette.gray_4},
+
+  -- BufferLineDiagnostic = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineDiagnosticVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineDiagnosticSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineHint = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineHintVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineHintSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineHintDiagnostic = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineHintDiagnosticVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineHintDiagnosticSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineInfo = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineInfoVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineInfoSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineInfoDiagnostic = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineInfoDiagnosticVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineInfoDiagnosticSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineWarning = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineWarningVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineWarningSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineWarningDiagnostic = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineWarningDiagnosticVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineWarningDiagnosticSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineError = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineErrorVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineErrorSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineErrorDiagnostic = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineErrorDiagnosticVisible = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineErrorDiagnosticSelected = {fg = palette.mustard, bg = palette.gray_4},
+
+  BufferLineModified = {fg = palette.white, bg = palette.jw_green_6},
+  BufferLineModifiedSelected = {fg = palette.white, bg = palette.bg},
+  BufferLineModifiedVisible = {fg = palette.white, bg = palette.bg},
+
+  -- BufferLineDuplicate = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineDuplicateSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineDuplicateVisible = {fg = palette.mustard, bg = palette.gray_4},
+
+  BufferLineSeparator = {fg = palette.jw_green_4, bg = palette.jw_green_6},
+  BufferLineSeparatorSelected = {fg = palette.jw_green_4, bg = palette.bg},
+  BufferLineSeparatorVisible = {fg = palette.jw_green_4, bg = palette.bg},
+
+  -- BufferLineIndicatorSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLineIndicatorVisible = {fg = palette.mustard, bg = palette.gray_4},
+
+  -- BufferLinePick = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLinePickSelected = {fg = palette.mustard, bg = palette.gray_4},
+  -- BufferLinePickVisible = {fg = palette.mustard, bg = palette.gray_4},
+
+  BufferLineOffsetSeparator = {fg = palette.white, bg = palette.jw_green_4, bold = true},
+
+  -- BufferLineTruncMarker = {fg = palette.mustard, bg = palette.gray_4},
 }
 
 return groups
